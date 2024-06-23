@@ -516,4 +516,8 @@ body{
     flex-basis: 100%;
     margin-bottom: 30px;
   }
+  .project{
+    max-width: 100%;
+    flex-direction: column;
+  }
 }
