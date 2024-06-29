@@ -29,7 +29,7 @@ body{
   margin:auto;
 }
 
-      /*---------------------------Header---------------------------*/
+/*---------------------------Header---------------------------*/
 
 .header-area{
   padding:25px 0;
@@ -50,7 +50,6 @@ body{
   display:flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-bottom: 2rem; */
 } 
 .logo {
   display: flex;
@@ -162,7 +161,7 @@ body{
   transform: rotate(360deg);
 }
 
- /*---------------------------About---------------------------*/
+/*---------------------------About---------------------------*/
 
 .about-area{
   padding-top: 130px;
@@ -259,7 +258,6 @@ body{
   max-width: 100%;  
 }
 .education-content .row .timeline{
-  /* background-color:#c9d1d9; */
   padding: 30px 15px;
   border: 1px solid #30363d;
   border-radius: 10px;
@@ -314,9 +312,11 @@ body{
 }
 
 /*---------------------------Projects---------------------------*/
+#projects{
+  background-color: #0d1117;
+}
 .project-content{
   padding: 90px 0;
-  /* color:#c9d1d9;  */
 }
 .project-title{
   margin-bottom: 60px;
@@ -431,17 +431,17 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  .footer .message {
+}
+.footer .message {
     font-size: 12px;
     color: #8b949e;
     margin-bottom: 10px;
-  }
+}
   
-  .copyright {
+.copyright {
     font-size: 12px;
     color: #8b949e;
-  }
+}
 
 /*------------------- Responsive Design on small screen -------------------*/
 
